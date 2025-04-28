@@ -1,3 +1,0 @@
-D:/ya tuplu v programmirovanii/try_cma_ke/build/CMakeFiles/try_cma_ke.dir
-D:/ya tuplu v programmirovanii/try_cma_ke/build/CMakeFiles/edit_cache.dir
-D:/ya tuplu v programmirovanii/try_cma_ke/build/CMakeFiles/rebuild_cache.dir

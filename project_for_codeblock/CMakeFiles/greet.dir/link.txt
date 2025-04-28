@@ -1,0 +1,2 @@
+D:\MinGW\x86_64-12.2.0-release-posix-seh-rt_v10-rev1\mingw64\bin\ar.exe qc libgreet.a CMakeFiles/greet.dir/libs/static_lib/greet.cpp.obj
+D:\MinGW\x86_64-12.2.0-release-posix-seh-rt_v10-rev1\mingw64\bin\ranlib.exe libgreet.a

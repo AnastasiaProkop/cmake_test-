@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="try_cma_ke"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\zlib-develop\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greet">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libgreet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 greet"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="greet/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libgreet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 greet/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="try_cma_ke">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/try_cma_ke.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/functions"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/json/include"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/math_module"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/static lib"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 try_cma_ke"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="try_cma_ke/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/try_cma_ke.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/functions"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/json/include"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/math_module"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/static lib"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 try_cma_ke/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/libzlib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/libzlib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/libzlibstatic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/libzlibstatic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/minigzip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 minigzip"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/minigzip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 minigzip/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/example64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 example64"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/example64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 example64/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/minigzip64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 minigzip64"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/minigzip64.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke"/>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 minigzip64/fast"/>
+					<CompileFile command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/functions/hello_func.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/adl_serializer.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/byte_container_with_subtype.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/abi_macros.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/conversions/from_json.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/conversions/to_chars.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/conversions/to_json.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/exceptions.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/hash.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/input/binary_reader.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/input/input_adapters.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/input/json_sax.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/input/lexer.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/input/parser.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/input/position_t.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/iterators/internal_iterator.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/iterators/iter_impl.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/iterators/iteration_proxy.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/iterators/iterator_traits.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/iterators/primitive_iterator.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/json_custom_base_class.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/json_pointer.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/json_ref.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/macro_scope.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/macro_unscope.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/call_std/begin.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/call_std/end.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/cpp_future.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/detected.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/identity_tag.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/is_sax.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/std_fs.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/type_traits.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/meta/void_t.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/output/binary_writer.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/output/output_adapters.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/output/serializer.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/string_concat.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/string_escape.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/string_utils.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/detail/value_t.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/json.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/json_fwd.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/ordered_map.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/thirdparty/hedley/hedley.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/static lib/greet.cpp">
+			<Option target="greet"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/static lib/greet.hpp">
+			<Option target="greet"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/adler32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/compress.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/crc32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/crc32.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/deflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/deflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/gzclose.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/gzguts.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/gzlib.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/gzread.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/gzwrite.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/infback.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/inffast.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/inffast.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/inffixed.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/inflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/inflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/inftrees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/inftrees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/test/example.c">
+			<Option target="example"/>
+			<Option target="example64"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/test/minigzip.c">
+			<Option target="minigzip"/>
+			<Option target="minigzip64"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/trees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/trees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/uncompr.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/zlib.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/zutil.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/zutil.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/main.cpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/math_module/math functions.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/math_module/math module.cpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/math_module/math structures.hpp">
+			<Option target="try_cma_ke"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/zconf.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/zlib1rc.obj">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/project_for_codeblock/libs/zlib-develop/zlib1rc.obj.rule">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\zlib-develop\"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\libs\zlib-develop\"/>
+		</Unit>
+		<Unit filename="D:/bez_probelov_blyat/try_cma_ke/libs/zlib-develop/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\libs\zlib-develop\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

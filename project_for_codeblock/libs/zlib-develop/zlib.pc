@@ -1,0 +1,13 @@
+prefix=C:/Program Files (x86)/try_cma_ke
+exec_prefix=C:/Program Files (x86)/try_cma_ke
+libdir=C:/Program Files (x86)/try_cma_ke/lib
+sharedlibdir=C:/Program Files (x86)/try_cma_ke/lib
+includedir=C:/Program Files (x86)/try_cma_ke/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
