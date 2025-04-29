@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+fcee1d442cdfca01a5eb6f13c50bd5e7 CMakeFiles/force_build_libmdbx
+d3e167bdae305d0fe1c05dfbad5d9aec libs/libmdbx/CMakeFiles/ntdll_extra_target
+95dee1d00bacf6a68a3e29f8a0e966f0 libs/libmdbx/mdbx_ntdll_extra.a

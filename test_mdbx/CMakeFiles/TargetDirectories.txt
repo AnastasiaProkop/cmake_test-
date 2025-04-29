@@ -1,0 +1,8 @@
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/CMakeFiles/try_cma_ke.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/CMakeFiles/force_build_libmdbx.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/CMakeFiles/edit_cache.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/CMakeFiles/rebuild_cache.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/ntdll_extra_target.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/mdbx-static.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/edit_cache.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/rebuild_cache.dir

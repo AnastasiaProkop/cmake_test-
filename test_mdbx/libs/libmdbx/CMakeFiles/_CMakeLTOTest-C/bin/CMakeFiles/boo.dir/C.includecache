@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/_CMakeLTOTest-C/src/main.c
+

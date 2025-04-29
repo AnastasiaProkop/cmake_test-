@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="try_cma_ke" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CMake Files/;CMake Files/libs/;CMake Files/libs/libmdbx/;CMake Files/libs/libmdbx/cmake/;CMake Files/libs/libmdbx/src/" />
+		<Build>
+			<Target title="all">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 all' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="try_cma_ke">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/test_mdbx/try_cma_ke.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/test_mdbx" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option host_application="test_mdbx/try_cma_ke.exe" />
+				<Option run_host_application_in_terminal="1" />
+				<Compiler>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/libmdbx" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 try_cma_ke' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="try_cma_ke/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/test_mdbx/try_cma_ke.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="D:/bez_probelov_blyat/try_cma_ke/test_mdbx" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/libmdbx" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 try_cma_ke/fast' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="force_build_libmdbx">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 force_build_libmdbx' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 edit_cache' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 rebuild_cache' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="ntdll_extra_target">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 ntdll_extra_target' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="mdbx-static">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/libmdbx.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DMDBX_BUILD_SHARED_LIBRARY=0" />
+					<Add option='-DMDBX_CONFIG_H=&quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/config.h&quot;' />
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/libmdbx/src" />
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 mdbx-static' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="mdbx-static/fast">
+				<Option output="D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/libmdbx.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DMDBX_BUILD_SHARED_LIBRARY=0" />
+					<Add option='-DMDBX_CONFIG_H=&quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/config.h&quot;' />
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/libs/libmdbx/src" />
+					<Add directory="D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed" />
+					<Add directory="D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 mdbx-static/fast' />
+					<CompileFile command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='D:/MinGW/x86_64-12.2.0-release-posix-seh-rt_v10-rev1/mingw64/bin/mingw32-make.exe -f &quot;D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="../CMakeLists.txt">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/libs/libmdbx/" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/cmake/compiler.cmake">
+			<Option virtualFolder="CMake Files/libs/libmdbx/cmake/" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/cmake/profile.cmake">
+			<Option virtualFolder="CMake Files/libs/libmdbx/cmake/" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files/libs/libmdbx/cmake/" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/mdbx.h">
+			<Option target="mdbx-static" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/mdbx.h++">
+			<Option target="mdbx-static" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/src/alloy.c">
+			<Option compilerVar="CC" />
+			<Option target="mdbx-static" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/src/config.h.in">
+			<Option virtualFolder="CMake Files/libs/libmdbx/src/" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/src/mdbx.c++">
+			<Option target="mdbx-static" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/src/ntdll.def">
+			<Option target="ntdll_extra_target" />
+		</Unit>
+		<Unit filename="../libs/libmdbx/src/version.c.in">
+			<Option virtualFolder="CMake Files/libs/libmdbx/src/" />
+		</Unit>
+		<Unit filename="../main_mdbx.cpp">
+			<Option target="try_cma_ke" />
+		</Unit>
+		<Unit filename="libs/libmdbx/config.h">
+			<Option target="mdbx-static" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

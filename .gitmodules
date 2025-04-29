@@ -4,3 +4,6 @@
 [submodule "libs/sqlite3"]
 	path = libs/sqlite3
 	url = https://github.com/sqlite/sqlite.git
+[submodule "libs/libmdbx"]
+	path = libs/libmdbx
+	url = https://github.com/erthink/libmdbx.git

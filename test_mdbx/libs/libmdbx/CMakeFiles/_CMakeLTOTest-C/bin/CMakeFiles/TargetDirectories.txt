@@ -1,0 +1,4 @@
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+D:/bez_probelov_blyat/try_cma_ke/test_mdbx/libs/libmdbx/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir
